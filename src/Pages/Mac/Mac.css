@@ -1,0 +1,209 @@
+.mac{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 500px;
+
+}
+.mac img{
+    width: 100%;
+}
+.mac_about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    gap: 50px;
+    margin-top: -20px;
+}
+.mac_about h1{
+    font-size: 95px;
+    color: white;
+}
+.mac_about h1 span{
+    margin-left: 90px;
+}
+.mac_about p{
+    font-size: 32px;
+    color: #888886;
+    width: 900px;
+}
+.mac_about h2{
+    font-size: 24px;
+    color: white;
+}
+.super{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.super img{
+    width: 100%;
+    margin-top: 180px;
+}
+.charge{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.charge img{
+    width: 25%;
+}
+.content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 70px;
+    margin-top: 700px;
+}
+.content h3{
+    color: #ac83f7;
+    width: 300px;
+    font-size: 24px;
+}
+.lapi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    gap: 70px;
+}
+.lapi h1{
+    font-size: 60px;
+    color: white;
+}
+.lapi img{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.lapi2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1D1D1F;
+    gap: 70px;
+}
+.lapi2 h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 50px;
+}
+.lapi2 img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.last{
+    background-color: black;
+    height: 100px;
+}
+.mac_button{
+    width: 180px;
+    height: 60px;
+    font-size: 19px;
+    border-radius: 40px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.mac_button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+    .mac_about h1{
+        font-size: 45px;
+        color: white;
+    }
+    .mac_about h1 span{
+        margin-left: -0px;
+    }
+    .mac_about p{
+        font-size: 24px;
+        color: #888886;
+        width: 400px;
+        padding: 20px;
+    }
+    .mac_about h2{
+        font-size: 19px;
+        color: white;
+    }
+    .mac img{
+        width: 100%;
+    }
+    .super{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        margin-top: -695px;
+    }
+    .super img{
+        width: 100%;
+        margin-top: 180px;
+    }
+    .charge{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .charge img{
+        width: 25%;
+    }
+    .content{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 70px;
+        margin-top: 550px;
+        background-color: black;
+    }
+    .content h3{
+        display: none;
+    }
+    .lapi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        gap: 70px;
+    }
+    .lapi h1{
+        font-size: 45px;
+        color: white;
+    }
+    .lapi img{
+        width: 100%;
+    }
+    .lapi2 h1{
+        font-size: 45px;
+        color: white;
+        margin-top: 50px;
+    }
+    .lapi2 img{
+        width: 100%;
+    }
+}

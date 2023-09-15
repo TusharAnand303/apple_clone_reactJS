@@ -1,0 +1,303 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+}
+.page1{
+    background-color: black;
+    height: 60vh;
+}
+.page h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 500px;
+    margin-bottom: 50px;
+}
+.page p{
+    color: #86868B;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+}
+.buttons button{
+    width: 180px;
+    height: 60px;
+    font-size: 19px;
+    border-radius: 40px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.buttons button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+}
+.hero{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.hero h1{
+    color: white;
+    font-size: 60px;
+}
+.hero_h1{
+    background-color: black;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    /* margin-bottom: 100px; */
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.hero img{
+    margin-top: 100px;
+}
+.camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    gap: 20px;
+    overflow: hidden;
+}
+.camera h1{
+    font-size: 60px;
+    margin-top: 50px;
+}
+.camera p{
+    color: #86868B;
+    font-size: 24px;
+    margin-top: 50px;
+    width: 500px;
+}
+.camera img{
+    margin-right: -600px;
+}
+.charger_main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+}
+.charger{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.charger h1{
+    font-size: 60px;
+    text-align: start;
+    color: white;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+}
+.left p{
+    font-size: 24px;
+    color: #86868B;
+    width: 400px;
+}
+.left p span{
+    color: white;
+    font-weight: bolder;
+}
+.right h2{
+    font-size: 60px;
+}
+.right p{
+    font-size: 24px;
+    color: #86868B;
+}
+.charger img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #101010;
+    overflow: hidden;
+}
+.ios h2{
+    font-size: 60px;
+    color: #86868B;
+    margin-top: 50px;
+}
+.ios h3{
+    font-size: 60px;
+    color: white;
+    margin-top: 20px;
+}
+.ios img{
+    margin-top: 40px;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+.lastt{
+    text-align: center;
+    font-size: 60px;
+    color: #888888;
+    background-color: black;
+    padding: 50px;
+}
+@media (max-width: 768px) {
+    .page video{
+        height: 100%;
+        width: 100%;
+        /* margin-top: -200px; */
+        margin-left: -10px;
+    }
+    .page h1{
+        color: white;
+        font-size: 45px;
+        font-weight: 600;
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+    .page p{
+        color: #86868B;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: 10px; */
+    }
+    .page1{
+        background-color: black;
+        height: 30vh;
+    }
+    .image_hero{
+        /* width: 80vw; */
+        height: 100vh;
+    }
+    .camera h1{
+        font-size: 45px;
+        padding: 30px;
+    }
+    .camera p{
+        color: #86868B;
+        font-size: 19px;
+        margin-top: 50px;
+        width: 500px;
+        padding-left: 70px;
+        padding-right: 70px;
+
+    }
+    .camera img{
+        margin-right: -780px;
+    }
+    .charger h1{
+        margin-top: -50px;
+        font-size: 45px;
+        color: white;
+        /* margin-left: -50px; */
+    }
+    .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 50px;
+    }
+    .left p{
+        font-size: 19px;
+        color: #86868B;
+        width: 300px;
+        padding: 10px;
+    }
+    .left p span{
+        color: white;
+        font-weight: bolder;
+    }
+    .right h2{
+        font-size: 60px;
+    }
+    .right p{
+        font-size: 19px;
+        color: #86868B;
+        width: 300px;
+    }
+    .charger img{
+        margin-top: 50px;
+        /* width: 100%; */
+        margin-left: -450px;
+        height: 700px;
+        margin-bottom: 50px;
+    }
+    .charger_main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        color: white;
+    }
+    .ios h2{
+        font-size: 45px;
+        color: #86868B;
+        margin-top: 50px;
+    }
+    .ios h3{
+        font-size: 19px;
+        color: white;
+        margin-top: 20px;
+        
+    }
+    .ios img{
+        margin-top: 20px;
+        padding: 50px;
+        margin-bottom: 40px;
+        /* width: 100%; */
+    }
+    .lastt{
+        text-align: center;
+        font-size: 40px;
+        color: #888888;
+        background-color: black;
+        padding: 50px;
+    }
+    
+    
+
+}

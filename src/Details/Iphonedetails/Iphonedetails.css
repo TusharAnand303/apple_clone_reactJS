@@ -1,0 +1,132 @@
+.iphonedetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 150px;
+}
+.iphoneimage{
+    padding-left: 150px;
+    padding-top: 80px;
+}
+.iphone_data{
+    padding: 100px;
+    margin-left: -100px;
+}
+.iphone_data h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.iphone_data h3{
+    font-size: 30px;
+    color: rgb(83, 83, 83);
+}
+.iphone_data p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.iphone_data h4{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.iphone_data button{
+    width: 150px;
+    height: 50px;
+    font-size: 19px;
+    border-radius: 40px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 50px;
+}
+.iphone_data button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+}
+.mobileview{
+    display: none;
+}
+@media (max-width: 768px) {
+    .iphonedetails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        margin-bottom: 50px;
+    }
+    .iphoneimage{
+        padding: 10;
+        /* height: 150px; */
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .iphoneimage img{
+        width: 80%;
+    }
+    .mobileview{
+        display: block;
+        margin-top: 50px;
+        font-size: 45px;
+        margin-bottom: -180px;
+    }
+    .iphone_data h1{
+        display: none;
+    }
+    .iphone_data{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .iphone_data h3{
+        font-size: 30px;
+        color: rgb(83, 83, 83);
+        text-align: center;
+        margin-top: -200px;
+        margin-left: 100px;
+        width: 350px;
+    }
+    .iphone_data p{
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 100px;
+        width: 330px;
+    }
+    .iphone_data h4{
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: bolder;
+        margin-left: 320px;
+        width: 330px;
+        margin-top: 40px;
+    }
+    .iphone_data button{
+        width: 150px;
+        height: 50px;
+        font-size: 19px;
+        border-radius: 40px;
+        outline: none;
+        border: 1px solid white;
+        color: white;
+        background-color: #000;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .iphone_goback{
+        margin-right: 30px;
+    }
+}

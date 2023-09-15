@@ -1,0 +1,94 @@
+.cart_h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+}
+.cart{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: -250px;
+    margin-top: -80px;
+}
+.cart img{
+    height: 300px;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.counter .ico{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.counter .ico:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s all;
+}
+.idetails{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    flex-direction: column;
+    width: 500px;
+}
+.idetails button{
+    width: 150px;
+    height: 40px;
+    font-size: 19px;
+    border-radius: 40px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.idetails button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+}
+.checkout{
+    width: 200px;
+    height: 50px;
+    font-size: 19px;
+    border-radius: 40px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.checkout:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    gap: 40px;
+}
+.price h1{
+    font-size: 45px;
+    color: #888886;
+}
+.price h3{
+    font-size: 24px;
+}
